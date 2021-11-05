@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#register{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+#register .frame{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: calc(100% - 20px);
+    transform: translate(-50%, -50%);
+    padding: 20px 0;
+}
+
+#register .frame.registerH630_down{
+    position: static;
+    transform: translate(0, 0);
+    margin: 0 auto;
+}
+
+#register .frame fieldset{
+    border:1px solid #ccc;
+    border-radius: 6px;
+}
+#register .frame fieldset legend{
+    font-size: 28px;
+    color:#fff;
+    padding: 0 10px;
+}
+
+#register .frame fieldset .register_input{padding: 20px;}
+#register .frame fieldset .register_input ul{padding: 10px 0;}
+#register .frame fieldset .register_input ul li{padding: 5px 0;}
+#register .frame fieldset .register_input ul li span{
+    display: block;
+    padding-bottom: 5px;
+}
+
+#register .frame fieldset .register_input ul li span:last-child{padding-bottom: 0;}
+
+#register .frame fieldset .register_input ul li span label{
+    color:#fff;
+    font-size: 14px;
+}
+
+#register .frame fieldset .register_input ul li span input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color:#fff;
+    background-color: transparent;
+    padding: 0 10px;
+}
+
+#register .frame fieldset .register_input .rg_btn{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#register .frame fieldset .register_input .rg_btn button{
+    padding: 6px 12px;
+    border:none;
+    border-radius: 4px;
+     background-color: #09f;
+    color:#fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#register .frame fieldset .register_input .rg_btn button:hover{
+    background-color: #06d;
+    transition: 0.5s;
+}
+
+@media (min-width:576px){
+    #register .frame{
+        max-width:576px;
+        padding: 20px 10px;
+    }
+}

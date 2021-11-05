@@ -1,0 +1,67 @@
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAvnYZF4STX-1b9KnMl7mlyJZXcQrdz7aw",
+  authDomain: "practice-f6ac8.firebaseapp.com",
+  projectId: "practice-f6ac8",
+  storageBucket: "practice-f6ac8.appspot.com",
+  messagingSenderId: "956493166240",
+  appId: "1:956493166240:web:0b80e74bc9d72195473bc5"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+
+
+
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAvnYZF4STX-1b9KnMl7mlyJZXcQrdz7aw",
+    authDomain: "practice-f6ac8.firebaseapp.com",
+    projectId: "practice-f6ac8",
+    storageBucket: "practice-f6ac8.appspot.com",
+    messagingSenderId: "956493166240",
+    appId: "1:956493166240:web:0b80e74bc9d72195473bc5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAvnYZF4STX-1b9KnMl7mlyJZXcQrdz7aw",
+  authDomain: "practice-f6ac8.firebaseapp.com",
+  projectId: "practice-f6ac8",
+  storageBucket: "practice-f6ac8.appspot.com",
+  messagingSenderId: "956493166240",
+  appId: "1:956493166240:web:0b80e74bc9d72195473bc5"
+};
